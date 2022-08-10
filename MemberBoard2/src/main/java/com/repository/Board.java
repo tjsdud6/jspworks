@@ -12,6 +12,7 @@ public class Board implements Serializable{
 	private String content;
 	private Date regDate;
 	private String memberId;
+	private int hit;
 	
 	public int getBnum() {
 		return bnum;
@@ -43,4 +44,11 @@ public class Board implements Serializable{
 	public void setMemberId(String memberId) {
 		this.memberId = memberId;
 	}
+	public int getHit() {
+		return hit;
+	}
+	public void setHit(int hit) {
+		this.hit = hit;
+	}
+	
 }

@@ -56,7 +56,6 @@ public class MemberDAO {
 				memberList.add(member);
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
 			JDBCUtil.close(conn, pstmt, rs);

@@ -9,7 +9,7 @@
 <title>게시판 목록</title>
 <link rel="stylesheet" href="../resources/css/common.css">
 </head>
-<jsp:useBean id="boardDAO" class="com.repository.BoardDAO" scope="application" />
+<jsp:useBean id="boardD" class="w" scope="application" />
 <body>
 	<jsp:include page="../menu.jsp" />
 	<div id="container">

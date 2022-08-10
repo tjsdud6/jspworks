@@ -1,7 +1,7 @@
 <%@page import="com.repository.Board"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<jsp:useBean id="boardDAO" class="com.repository.BoardDAO" scope="application"/>
+<jsp:useBean id="boardD" class="w" scope="application"/>
 
 <%
 	request.setCharacterEncoding("utf-8");

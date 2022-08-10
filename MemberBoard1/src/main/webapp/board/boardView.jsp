@@ -9,7 +9,7 @@
 <title>게시글 상세 보기</title>
 <link rel="stylesheet" href="../resources/css/common.css">
 </head>
-<jsp:useBean id="boardDAO" class="com.repository.BoardDAO" scope="application" />
+<jsp:useBean id="boardD" class="w" scope="application" />
 <%
 	String memberId = null;
 	if(session.getAttribute("sessionId") != null){
